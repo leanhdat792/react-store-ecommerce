@@ -1,0 +1,9 @@
+1. Phỏng vấn siêu tốc Javascript, React và thuật toán
+https://www.youtube.com/watch?v=zbg-SERx6Ig&t=617s
+https://www.youtube.com/watch?v=vYWflZd1gEA
+2. Component life cycles qua ví dụ thực tế
+https://www.youtube.com/watch?v=MOms7uWpmT0
+3. Đồng bộ và bất đồng bộ của javascript - phần 1 (callback)
+https://www.youtube.com/watch?v=KDhgDyMQzME
+4. React - Nên dùng Javascript hay Typescript
+https://www.youtube.com/watch?v=MWsTdfvvNnY&t=7s

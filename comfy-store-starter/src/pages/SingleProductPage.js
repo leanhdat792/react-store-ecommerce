@@ -17,14 +17,15 @@ import { Link } from 'react-router-dom'
 const SingleProductPage = () => {
   const { id } = useParams();
   const history = useHistory();
-  const { 
-    single_product_loading: loading, 
-    single_product_error: error, 
-    single_product: product, 
-    fetchSingleProduct 
+  const {
+    single_product_loading: loading,
+    single_product_error: error,
+    single_product: product,
+    fetchSingleProduct
   } = useProductsContext();
   useEffect(() => {
     fetchSingleProduct(`${url}${id}`)
+    // eslint-disable-next-line
   }, [id])
 
   useEffect(() => {
@@ -36,6 +37,7 @@ const SingleProductPage = () => {
     if (error) {
       history.push('/error');
     }
+    // eslint-disable-next-line
   }, [error])
 
   if (loading) {
